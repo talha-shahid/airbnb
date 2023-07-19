@@ -53,6 +53,7 @@ model Listing {
     createdAt DateTime @default(now())
     category String
     roomCount Int
+    bathroomCount Int
     guestCount Int
     locationValue String
     userId String @db.ObjectId
